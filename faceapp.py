@@ -109,7 +109,7 @@ def callback_inline(call) :
             markup.add(a)
             bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text="Hi👋🏻\n🔅Welcome to FaceApp bot.\n➖➖➖➖➖➖➖➖\n⛑For use this robot you just need to send your picture for face changing.\n⚠️Note : Picture must be a single picture and have a bright face.", reply_markup=markup)
         elif call.data == "help":
-            bot.send_message(call.message.chat.id, "⚜ Magic Team ⚜\n➖➖➖➖➖➖➖➖\n🔹 Programmer : @king_program\n🔹 Developer : @Hosein_M1\n🔸 Channel : @magicnews")
+            bot.send_message(call.message.chat.id, "💟 cafe_girls1 💟\n➖➖➖➖➖➖➖➖\n🔹 admin : @mmdhiddenn\n😻 Channel : @cafe_girls1")
         else :
             s = bot.get_chat_member(channel, call.message.chat.id)
             if s.status == "member" or s.status == "creator" or s.status == "administrator":
