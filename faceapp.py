@@ -34,7 +34,7 @@ def start(m):
    markup = types.InlineKeyboardMarkup()
    start4 = types.InlineKeyboardButton("👈 عضویت در کانال 👉", url="https://t.me/joinchat/AAAAAD7rn1KXy_v_3-lvAQ")
    markup.add(start4)
-   bot.send_message(m.chat.id, "⚠️ کاربر عزیز جهت استفاده از این ربات ابتدا باید در کانال ما عضو شوید.\n\n🔅 برای عضویت در کانال بر روی لینک زیر کلیک کنید و دکمه join را بزنید👇\n<a href='https://t.me/joinchat/AAAAAD7rn1KXy_v_3-lvAQ'>@MajicNews</a>\n<a href='https://t.me/joinchat/AAAAAD7rn1KXy_v_3-lvAQ'>@MajicNews</a>\n\nپس از عضویت در کانال بر روی 👈 /start کلیک کنید تا ربات فعال شود!", parse_mode="HTML", reply_markup=markup)
+   bot.send_message(m.chat.id, "⚠️ کاربر عزیز جهت استفاده از این ربات ابتدا باید در کانال ما عضو شوید.\n\n🔅 برای عضویت در کانال بر روی لینک زیر کلیک کنید و دکمه join را بزنید👇\n<a href='https://telegram.me/joinchat/AAAAAD-lhGBk4oDwaRD5sg'>@cafe_girls1</a>\n<a href='https://telegram.me/joinchat/AAAAAD-lhGBk4oDwaRD5sg'>@cafe_girls1</a>\n\nپس از عضویت در کانال بر روی 👈 /start کلیک کنید تا ربات فعال شود!", parse_mode="HTML", reply_markup=markup)
    redis.sadd('mbrs_bot','{}'.format(m.from_user.id))
 
 @bot.message_handler(commands=['bc'])
